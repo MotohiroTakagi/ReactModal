@@ -8,7 +8,6 @@ const App = () => {
   const ShowModal = () => {
     setShowModal(true);
   };
-  <button onClick={ShowModal}>Open Modal</button>
   return (
     <>
       <h2>Modal実装</h2>
