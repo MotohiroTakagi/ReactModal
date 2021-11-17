@@ -3,7 +3,6 @@ const Modal = (props) => {
   const closeModal = () => {
     props.setShowModal(false);
   }
-  <button onClick={closeModal}>Close</button>
 
   const modalContent = {
     background: "white",
