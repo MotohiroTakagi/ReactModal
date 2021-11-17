@@ -26,7 +26,7 @@ const Modal = (props) => {
 
   return (
     <>
-      {props.showFlag ? (
+      {props.showModal ? (
         <div id="overlay" style={overlay}>
           <div id="modalContent" style={modalContent}>
             {/* <p>This is ModalContent</p> */}

@@ -13,7 +13,7 @@ const App = () => {
     <>
       <h2>Modal実装</h2>
       <button onClick={ShowModal}>Open Modal</button>
-      <Modal showFlag={showModal} setShowModal={setShowModal} content="親から渡された値です。"/>
+      <Modal showModal={showModal} setShowModal={setShowModal} content="親から渡された値です。"/>
     </>
   );
 }
